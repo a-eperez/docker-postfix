@@ -2,7 +2,7 @@ FROM alpine:edge
 
 ARG BUILD_DATE=0
 ARG VCS_REF=0
-ARG VERSION=3.3.2
+ARG VERSION=3.4.1
 
 LABEL maintainer="Ernesto Pérez <ernesto.perez@euigs.com>" \
       org.label-schema.build-date=$BUILD_DATE \
