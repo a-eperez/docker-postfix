@@ -1,9 +1,19 @@
-# Squid
+# Postfix
 
-[![](https://images.microbadger.com/badges/image/euiitgs/squid.svg)](https://microbadger.com/images/euiitgs/squid "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/euiitgs/squid.svg)](https://microbadger.com/images/euiitgs/squid "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/commit/euiitgs/squid.svg)](https://microbadger.com/images/euiitgs/squid "Get your own commit badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/euigs/postfix.svg)](https://microbadger.com/images/euigs/postfix "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/euigs/postfix.svg)](https://microbadger.com/images/euigs/postfix "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/commit/euigs/postfix.svg)](https://microbadger.com/images/euigs/postfix "Get your own commit badge on microbadger.com")
 
-Minimal Squid docker image based on Alpine Linux 3.8.
+Minimal Postfix docker image based on Alpine Linux Edge
 
 ## Usage
+
+```
+docker run --rm -d euigs/postfix
+```
+
+## Files mount
+
+```
+docker run --rm -ti -v $PWD/transport:/etc/postfix/transport euigs/postfix
+```
